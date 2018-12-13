@@ -1,3 +1,4 @@
+/* eslint-disable */
 // ***********************************************************
 // This example plugins/index.js can be used to load plugins
 //
@@ -13,5 +14,5 @@
 
 const cucumber = require('cypress-cucumber-preprocessor').default;
 module.exports = (on, config) => {
-  on('file:preprocessor', cucumber())
+  on('file:preprocessor', cucumber());
 };

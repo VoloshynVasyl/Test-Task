@@ -3,6 +3,11 @@
     "rules": {
         "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
         "react/prefer-stateless-function": false,
-        "react/forbid-prop-types": [0, {"forbid":[]}]
-      }
+        "react/forbid-prop-types": [0, {"forbid":[]}],
+        "linebreak-style": "off",
+        "no-underscore-dangle": "off"
+      },
+    "globals": {
+        "cy": true
+    }
 }
